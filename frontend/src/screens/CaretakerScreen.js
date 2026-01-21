@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import api from '../services/api';
 import { useFocusEffect } from '@react-navigation/native';
 import { AuthContext } from '../context/AuthContext';
-import Icon from 'react-native-vector-icons/Ionicons';
+import { Ionicons as Icon } from '@expo/vector-icons';
 
 const CaretakerScreen = () => {
     const { logout } = useContext(AuthContext);
